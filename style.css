@@ -1,0 +1,61 @@
+body {
+    margin: 0; 
+    background-color: black;          
+}
+
+.container {
+    display: flex;           /* Enables Flexbox */
+    justify-content: flex-end; /* Moves the square to the right */
+    align-items: center;     /* Vertically centers the square */
+    height: 100vh;           /* Full viewport height */
+}
+
+
+.squaretitle {
+   
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px auto;  /* Center horizontally */
+
+    display: flex; /*fixar texten till mitten*/
+    justify-content: center;  /*fixar textentill mitten*/
+    align-items: center; /*fixar texten till mitten*/
+    
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    
+    
+}
+.squaretitle b {
+    color: black;
+    font-size: 20px;
+}
+
+
+.square {
+    width: 150px;
+    height: 250px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;      /* Stack vertically */
+    align-items: center;         /* Center horizontally */
+    border-radius: 15px;
+    
+                 
+}
+
+.square a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+
+.square a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
